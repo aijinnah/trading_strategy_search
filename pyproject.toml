@@ -1,0 +1,20 @@
+[tool.black]
+# Black configuration
+exclude = '''
+/(
+    \.git
+    | \.mypy_cache
+    | \.pytest_cache
+    | \.venv
+    | env
+    | build
+    | dist
+)/
+'''
+
+[tool.isort]
+# isort configuration
+skip = [
+    "env",
+    ".venv"
+]

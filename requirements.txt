@@ -1,0 +1,8 @@
+python-dotenv==1.1.1
+dotenv==0.9.9
+numpy==1.26.4
+pandas==2.3.0
+vectorbt==0.27.1
+openai==1.59.3
+google-genai==0.3.0
+yfinance==0.2.51
